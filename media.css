@@ -107,6 +107,16 @@
         width: 100%;
     }
 
+    .posts-list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .post-item {
+        width: 100%;
+    }
+
     .post-item1 {
         float: none;
     }
@@ -114,19 +124,15 @@
     .post-item2 {
         float: none;
     }
+
     .post-item3 {
         float: none;
     }
+
     .post-item4 {
         float: none;
     }
 
-}
-
-@media screen and (max-width: 991px) {
-    .post-item {
-        width: 100%;
-    }
 }
 
 
