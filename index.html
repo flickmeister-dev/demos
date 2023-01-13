@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/e590fdc27a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="media.css" rel="stylesheet" type="text/css">
+    <script src="index.js"></script>
+    <title>Title</title>
+</head>
+<body>
+
+    <div class="main">
+        <div class="header">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <button class="navbar-toggler" type="button" style="border: none" data-toggle="collapse"
+                            data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="nav-link text-white" href="#">Blog</a>
+                            <div class="dropdown-divider"></div>
+                            <div class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item text-white" href="#">Action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item text-white" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item text-white" href="#">Something else here</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="popular-tags">
+            <div class="popular-tags-list">
+                <strong class="tags-title text-white">
+                    Popular Tags
+                </strong>
+                <ul class="tags-list">
+                    <li><a href="#">Tag1</a></li>
+                    <li><a href="#">Tag2</a></li>
+                    <li><a href="#">Tag3</a></li>
+                    <li><a href="#">Tag4</a></li>
+                    <li><a href="#">Tag5</a></li>
+                    <li><a href="#">Tag6</a></li>
+                    <li><a href="#">Tag7</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="section-news">
+            <div class="container">
+                <div class="news-content col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="container-slider col-lg-6 col-md-12 col-sm-12 col-xs-12" >
+                        <div class="image-wrapper">
+                            <div class="slider">
+                                <div class="slider-item">
+                                    <a type="button" href="#">
+                                        <img class="image-slider" src="images/earth3.jpg" alt="image"  sizes="(max-width: 1024) 100vw, 1024px" align="center">
+                                    </a>
+                                    <div class="read-part">
+                                        <div class="categories">
+                                            <ul class="links">
+                                                <li class="category">
+                                                    <a class="news-category" type="button" href="#">Business</a>
+                                                </li>
+                                                <li class="category">
+                                                    <a class="news-category" type="button" href="#">Health</a>
+                                                </li>
+                                                <li class="category">
+                                                    <a class="news-category" type="button" href="#">Sports</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="text-link">
+                                            <h4>
+                                                <a type="button" href="#">
+                                                    Musk’s SpaceX: Starship lands safely… then explodes
+                                                </a>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="middle-container col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                        <div class="middle-content">
+                            <div class="container-top-content col-xs-12">
+                                <div class="top-container">
+                                    <div class="top-content">
+                                        <div class="middle-top-img">
+                                            <a type="button" href="#">
+                                            <img width="300" height="169" src="https://demos.afthemes.com/darknews-pro/wp-content/uploads/2018/07/covid-19-coronavirus-covid-cell-pandemic-corona-virus-1608796-pxhere.com-1.jpg" sizes="(max-width: 300px) 100vw, 300px">
+                                            </a>
+                                            <div class="middle-read-part">
+                                                <ul class="links">
+                                                    <li class="category">
+                                                        <a class="news-category" type="button" href="#">Newsbeat</a>
+                                                    </li>
+                                                </ul>
+                                                <div class="meddle-text-link">
+                                                    <h4>
+                                                        <a type="button" href="#">
+                                                            7 Successful Battle Strategies to Beat COVID-19
+                                                        </a>
+                                                    </h4>
+                                                </div>
+                                                <div class="publication-date">
+                                                    <span class="author-link">
+                                                        <i class="date far fa-clock"></i>
+                                                        July 18, 2018
+                                                        <div class="view-container">
+                                                            <a class=" view-button" type="button" href="#">
+                                                                <i class="far fa-chart-bar"></i>
+                                                                163
+                                                            </a>
+                                                        </div>
+                                                    </span>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container-bottom-content col-xs-12">
+                                <div class="bottom-content">
+                                    <div class="top-content">
+                                        <div class="middle-top-img">
+                                            <a type="button" href="#">
+                                                <img class="attachment-medium size-medium wp-post-image" alt="" loading="lazy" srcset="https://demos.afthemes.com/darknews-pro/wp-content/uploads/2018/07/sky-atmosphere-europe-space-africa-globe-535638-pxhere.com_-768x432.jpg 768w, https://demos.afthemes.com/darknews-pro/wp-content/uploads/2018/07/sky-atmosphere-europe-space-africa-globe-535638-pxhere.com_.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px">
+                                            </a>
+                                            <div class="middle-read-part">
+                                                <ul class="links">
+                                                    <li class="category">
+                                                        <a class="news-category" type="button" href="#">Business</a>
+                                                    </li>
+                                                </ul>
+                                                <div class="meddle-text-link">
+                                                    <h4>
+                                                        <a type="button" href="#">
+                                                            Musk’s SpaceX: Starship lands safely… then explodes
+                                                        </a>
+                                                    </h4>
+                                                </div>
+                                                <div class="publication-date">
+                                                    <span class="author-link">
+                                                        <i class="date far fa-clock"></i>
+                                                        July 18, 2018
+                                                        <div class="view-container">
+                                                            <a class=" view-button" type="button" href="#">
+                                                                <i class="far fa-chart-bar"></i>
+                                                                153
+                                                            </a>
+                                                        </div>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-right-content col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                        <div class="right-content">
+                            <div class="button-container">
+                                <div class="button-head">
+                                    <ul class="buttons ">
+                                        <li class="button-latest">
+                                            <a class="left-content-button active" id="button-left" type="button">LATEST</a>
+                                        </li>
+                                        <li class="button-popular ">
+                                            <a class="right-content-button" id="button-right" type="button">POPULAR</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        <!--Latest-->
+                            <div class="active-left" id="active-latest">
+                                <ul class="posts-list">
+                                    <li class="post-item post-item1 col-xs-12">
+                                        <div class="read-part-right">
+                                            <div class="image-right">
+                                                <a type="button" href="#" class="image-button">
+                                                    <img class="image-link" alt="" loading="lazy"><img width="89" height="89" src="https://demos.afthemes.com/darknews-pro/wp-content/uploads/2018/07/covid-19-coronavirus-covid-cell-pandemic-corona-virus-1608796-pxhere.com-1-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy">
+                                                </a>
+                                            </div>
+                                            <div class="read-details">
+                                                <div class="read-title">
+                                                    <h4>
+                                                        <a href="#">
+                                                            7 Successful Battle Strategies to Beat COVID-19
+                                                        </a>
+                                                    </h4>
+                                                </div>
+                                                <div class="post-data">
+                                                    <span class="author-link">
+                                                        <i class="date far fa-clock"></i>
+                                                        July 18, 2018
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="post-item post-item2 col-xs-12">
+                                        <div class="read-part-right">
+                                            <div class="image-right">
+                                                <a type="button" href="#" class="image-button">
+                                                    <img class="image-link" alt="" loading="lazy"><img width="89" height="89" src="https://demos.afthemes.com/darknews-pro/wp-content/uploads/2018/07/sky-white-wind-old-country-military-714534-pxhere.com_-150x150.jpg" alt="" loading="lazy">
+                                                </a>
+                                            </div>
+                                            <div class="read-details">
+                                                <div class="read-title">
+                                                    <h4>
+                                                        <a href="#">
+                                                            7 Successful Battle Strategies to Beat COVID-19
+                                                        </a>
+                                                    </h4>
+                                                </div>
+                                                <div class="post-data">
+                                                    <span class="author-link">
+                                                        <i class="date far fa-clock"></i>
+                                                        July 18, 2018
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="post-item post-item3 col-xs-12">
+                                        <div class="read-part-right">
+                                            <div class="image-right">
+                                                <a type="button" href="#" class="image-button">
+                                                    <img class="image-link" alt="" loading="lazy"><img width="89" height="89" src="https://demos.afthemes.com/darknews-pro/wp-content/uploads/2018/07/sea-dock-boat-ship-vehicle-equipment-99173-pxhere.com_-150x150.jpg" alt="" loading="lazy">
+                                                </a>
+                                            </div>
+                                            <div class="read-details">
+                                                <div class="read-title">
+                                                    <h4>
+                                                        <a href="#">
+                                                            7 Successful Battle Strategies to Beat COVID-19
+                                                        </a>
+                                                    </h4>
+                                                </div>
+                                                <div class="post-data">
+                                                    <span class="author-link">
+                                                        <i class="date far fa-clock"></i>
+                                                        July 18, 2018
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="post-item post-item4 col-xs-12">
+                                        <div class="read-part-right">
+                                            <div class="image-right">
+                                                <a type="button" href="#" class="image-button">
+                                                    <img class="image-link" alt="" loading="lazy"><img width="89" height="89" src="https://demos.afthemes.com/darknews-pro/wp-content/uploads/2018/07/horology-timepiece-divers-watch-time-wrist-watch-watch-1422927-pxhere.com_-150x150.jpg" alt="" loading="lazy">
+                                                </a>
+                                            </div>
+                                            <div class="read-details">
+                                                <div class="read-title">
+                                                    <h4>
+                                                        <a href="#">
+                                                            7 Successful Battle Strategies to Beat COVID-19
+                                                        </a>
+                                                    </h4>
+                                                </div>
+                                                <div class="post-data">
+                                                    <span class="author-link">
+                                                        <i class="date far fa-clock"></i>
+                                                        July 18, 2018
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Popular-->
+                            <div class="active-right" id="active-popular">
+                                <ul class="posts-list">
+                                    <li class="post-item post-item1">
+                                        <div class="read-part-right">
+                                            <div class="image-right">
+                                                <a type="button" href="#" class="image-button">
+                                                    <img class="image-link" alt="" loading="lazy"><img width="89" height="89" src="https://demos.afthemes.com/darknews-pro/wp-content/uploads/2018/07/sea-water-boat-vehicle-extreme-sport-boating-898650-pxhere.com_-150x150.jpg" alt="" loading="lazy">
+                                                </a>
+                                            </div>
+                                            <div class="read-details">
+                                                <div class="read-title">
+                                                    <h4>
+                                                        <a href="#">
+                                                            7 Successful Battle Strategies to Beat COVID-19
+                                                        </a>
+                                                    </h4>
+                                                </div>
+                                                <div class="post-data">
+                                                    <span class="author-link">
+                                                        <i class="date far fa-clock"></i>
+                                                        July 18, 2018
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="post-item post-item2">
+                                        <div class="read-part-right">
+                                            <div class="image-right">
+                                                <a type="button" href="#" class="image-button">
+                                                    <img class="image-link" alt="" loading="lazy"><img width="89" height="89" src="https://demos.afthemes.com/darknews-pro/wp-content/uploads/2018/07/laptop-notebook-computer-smartphone-mobile-work-478359-pxhere.com_-150x150.jpg" alt="" loading="lazy">
+                                                </a>
+                                            </div>
+                                            <div class="read-details">
+                                                <div class="read-title">
+                                                    <h4>
+                                                        <a href="#">
+                                                            7 Successful Battle Strategies to Beat COVID-19
+                                                        </a>
+                                                    </h4>
+                                                </div>
+                                                <div class="post-data">
+                                                    <span class="author-link">
+                                                        <i class="date far fa-clock"></i>
+                                                        July 18, 2018
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="post-item post-item3">
+                                        <div class="read-part-right">
+                                            <div class="image-right">
+                                                <a type="button" href="#" class="image-button">
+                                                    <img class="image-link" alt="" loading="lazy"><img width="89" height="89" src="https://demos.afthemes.com/darknews-pro/wp-content/uploads/2018/07/water-architecture-sunrise-sunset-road-bridge-744292-pxhere.com_-150x150.jpg" alt="" loading="lazy">
+                                                </a>
+                                            </div>
+                                            <div class="read-details">
+                                                <div class="read-title">
+                                                    <h4>
+                                                        <a href="#">
+                                                            7 Successful Battle Strategies to Beat COVID-19
+                                                        </a>
+                                                    </h4>
+                                                </div>
+                                                <div class="post-data">
+                                                    <span class="author-link">
+                                                        <i class="date far fa-clock"></i>
+                                                        July 18, 2018
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="post-item post-item4">
+                                        <div class="read-part-right">
+                                            <div class="image-right">
+                                                <a type="button" href="#" class="image-button">
+                                                    <img class="image-link" alt="" loading="lazy"><img width="89" height="89" src="https://demos.afthemes.com/darknews-pro/wp-content/uploads/2018/07/grass-structure-sport-field-game-soccer-1233630-pxhere.com_-1-150x150.jpg" alt="" loading="lazy">
+                                                </a>
+                                            </div>
+                                            <div class="read-details">
+                                                <div class="read-title">
+                                                    <h4>
+                                                        <a href="#">
+                                                            7 Successful Battle Strategies to Beat COVID-19
+                                                        </a>
+                                                    </h4>
+                                                </div>
+                                                <div class="post-data">
+                                                    <span class="author-link">
+                                                        <i class="date far fa-clock"></i>
+                                                        July 18, 2018
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,143 @@
+@media screen and (max-width: 1200px) {
+    .main {
+        margin: 25px auto;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .container-slider {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .middle-content {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .container-top-content {
+        width: 50%;
+        margin: 0 15px 0 0;
+    }
+    .container-bottom-content {
+        width: 50%;
+    }
+
+    .read-details {
+        width: 66%;
+    }
+
+    .posts-list {
+
+    }
+
+    .post-item {
+        width: 50%;
+
+    }
+
+    .post-item1 {
+       float: left;
+    }
+
+    .post-item2 {
+    float: right;
+    }
+
+    .post-item3 {
+    float: left;
+    }
+
+    .post-item4 {
+    float: right;
+    }
+}
+
+@media screen and ( max-width: 768px) {
+    .middle-content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container-top-content {
+        width: 50%;
+        margin: 0 15px 0 0;
+    }
+    .container-bottom-content {
+        width: 50%;
+    }
+}
+
+
+@media screen and ( max-width: 768px) {
+    .middle-content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container-top-content {
+        width: 50%;
+        margin: 0 15px 0 0;
+    }
+    .container-bottom-content {
+        width: 50%;
+    }
+}
+
+@media screen and ( max-width: 480px) {
+    .slider-item {
+        height: 230px;
+    }
+
+    .read-part {
+        height: 70%;
+    }
+
+    .middle-content {
+        display: block;
+    }
+
+    .container-top-content {
+        width: 100%;
+    }
+
+    .container-bottom-content {
+        width: 100%;
+    }
+
+    .post-item1 {
+        float: none;
+    }
+
+    .post-item2 {
+        float: none;
+    }
+    .post-item3 {
+        float: none;
+    }
+    .post-item4 {
+        float: none;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .post-item {
+        width: 100%;
+    }
+}
+
+
+@media screen and ( max-width: 339px) {
+    .slider-item {
+        height: 230px;
+    }
+
+    .read-part {
+        height: 80%;
+    }
+}
+
+
