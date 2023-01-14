@@ -128,6 +128,10 @@
         float: left;
         width: 50%;
     }
+
+    .missed-img {
+        height: 220px;
+    }
 }
 
 @media screen and ( max-width: 550px) {
