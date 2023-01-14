@@ -130,6 +130,19 @@
     }
 }
 
+@media screen and ( max-width: 550px) {
+    .posts-list-ftr {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .post-item-ftr {
+        width: 100%;
+    }
+}
+
 @media screen and ( max-width: 480px) {
     .slider-item {
         height: 230px;
