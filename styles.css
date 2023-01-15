@@ -81,7 +81,7 @@ body {
     color: white;
     display: inline-flex;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 .popular-tags-list ul li  a{
@@ -760,6 +760,16 @@ body {
     color: white;
     text-decoration: none;
 }
+
+footer {
+    position: relative;
+    z-index: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://demos.afthemes.com/darknews/wp-content/uploads/2021/04/sky-atmosphere-europe-space-africa-globe-535638-pxhere.com_.jpg);
+}
+
 .footer-tags a:hover {
     color: #d72924;
     transition: color 0.5s;
