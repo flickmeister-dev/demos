@@ -57,6 +57,11 @@
     .post-item4 {
     float: right;
     }
+
+    .footer-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and ( max-width: 768px) {
