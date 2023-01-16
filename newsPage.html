@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+  </style>
+  <script src="https://kit.fontawesome.com/e590fdc27a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <link href="newsPage.css" rel="stylesheet" type="text/css">
+  <link href="media.css" rel="stylesheet" type="text/css">
+  <script src="index.js"></script>
+  <title>News Pages</title>
+</head>
+<body>
+
+<div class="main">
+  <!--Header-->
+  <div class="header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" style="border: none" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+            <div class="dropdown-divider"></div>
+            <a class="nav-link text-white" href="#">Blog</a>
+            <div class="dropdown-divider"></div>
+            <div class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown1" role="button"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Archives
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                <a class="dropdown-item text-white" href="#">Archives</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item text-white" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item text-white" href="#">Something else here</a>
+              </div>
+            </div>
+            <div class="dropdown-divider"></div>
+            <div class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown2" role="button"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Main Banners
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                <a class="dropdown-item text-white" href="#">Main Banners</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item text-white" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item text-white" href="#">Something else here</a>
+              </div>
+            </div>
+            <div class="dropdown-divider"></div>
+            <div class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown3" role="button"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Single Pages
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                <a class="dropdown-item text-white" href="#">Single Pages</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item text-white" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item text-white" href="#">Something else here</a>
+              </div>
+            </div>
+            <div class="dropdown-divider"></div>
+            <div class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown4" role="button"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                All Demos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                <a class="dropdown-item text-white" href="#">Single Pages</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item text-white" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item text-white" href="#">Something else here</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <div class="news-page-section container">
+    <div class="left-block">
+        <div class="left-block-header">
+          <div class="left-block-content">
+            <div class="left-block-head">
+              <ul class="links">
+                <li class="category">
+                  <a class="news-category" type="button" href="#">Business</a>
+                </li>
+                <li class="category">
+                  <a class="news-category" type="button" href="#">Health</a>
+                </li>
+                <li class="category">
+                  <a class="news-category" type="button" href="#">Sports</a>
+                </li>
+              </ul>
+            </div>
+              <h1 class="left-block-title">
+                7 Successful Battle Strategies to Beat COVID-19
+              </h1>
+            <div class="bottom-tittle">
+              Quisquam id rutrum cumque incidunt! Feugiat dicta nascetur cubilia placerat. Nec turpis!
+            </div>
+          </div>
+
+          <div class="left-block-img">
+              <div class="left-img">
+                <img width="1024" height="576" src="https://demos.afthemes.com/darknews/wp-content/uploads/2021/04/covid-19-coronavirus-covid-cell-pandemic-corona-virus-1608796-pxhere.com-1.jpg" class="attachment-darknews-featured size-darknews-featured wp-post-image" alt="" loading="lazy" srcset="https://demos.afthemes.com/darknews/wp-content/uploads/2021/04/covid-19-coronavirus-covid-cell-pandemic-corona-virus-1608796-pxhere.com-1.jpg 1024w, https://demos.afthemes.com/darknews/wp-content/uploads/2021/04/covid-19-coronavirus-covid-cell-pandemic-corona-virus-1608796-pxhere.com-1-300x169.jpg 300w, https://demos.afthemes.com/darknews/wp-content/uploads/2021/04/covid-19-coronavirus-covid-cell-pandemic-corona-virus-1608796-pxhere.com-1-768x432.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px">
+              </div>
+          </div>
+
+          <div class="left-block-news">
+            <div class="news-title">
+              <h4>7 Successful Battle Strategies to Beat COVID-19</h4>
+            </div>
+            <div class="news-gallery">
+              <a data-fslightbox="gallery" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <iframe width="300" height="180" src="https://www.youtube.com/embed/F-1weFCiYBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </a>
+              <a data-fslightbox="gallery" class="col-lg-4 col-md-4 col-sm-6 col-xs-12" href="images/earthmain.jpg">
+                <img  width="300" height="180" srcset="https://demos.afthemes.com/darknews-pro/wp-content/uploads/2018/07/sky-atmosphere-europe-space-africa-globe-535638-pxhere.com_.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px">
+              </a>
+              <a data-fslightbox="gallery" class="col-lg-4 col-md-4 col-sm-6 col-xs-12" href="images/prp.jpg">
+                <img width="300" height="180" src="https://demos.afthemes.com/darknews/wp-content/uploads/2021/04/sky-white-wind-old-country-military-714534-pxhere.com_.jpg">
+              </a>
+              <a data-fslightbox="gallery" class="col-lg-4 col-md-4 col-sm-6 col-xs-12" href="images/fishingvillage.jpg">
+                <img width="300" height="180" src="https://demos.afthemes.com/darknews/wp-content/uploads/2021/04/sea-dock-boat-ship-vehicle-equipment-99173-pxhere.com-1.jpg">
+              </a>
+              <a data-fslightbox="gallery" class="col-lg-4 col-md-4 col-sm-6 col-xs-12" href="images/earthmain.jpg">
+                <img  width="300" height="180" srcset="https://demos.afthemes.com/darknews-pro/wp-content/uploads/2018/07/sky-atmosphere-europe-space-africa-globe-535638-pxhere.com_.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px">
+              </a>
+              <a data-fslightbox="gallery" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <iframe width="300" height="180" src="https://www.youtube.com/embed/F-1weFCiYBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </a>
+            </div>
+          </div>
+
+          <div class="left-block-news">
+            <div class="news-title">
+              <h4>7 Successful Battle Strategies to Beat COVID-19</h4>
+            </div>
+            <div class="news-gallery">
+              <a data-fslightbox="gallery" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <iframe width="300" height="180" src="https://www.youtube.com/embed/F-1weFCiYBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </a>
+              <a data-fslightbox="gallery" class="col-lg-4 col-md-4 col-sm-6 col-xs-12" href="images/earthmain.jpg">
+                <img  width="300" height="180" srcset="https://demos.afthemes.com/darknews-pro/wp-content/uploads/2018/07/sky-atmosphere-europe-space-africa-globe-535638-pxhere.com_.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px">
+              </a>
+              <a data-fslightbox="gallery" class="col-lg-4 col-md-4 col-sm-6 col-xs-12" href="images/prp.jpg">
+                <img width="300" height="180" src="https://demos.afthemes.com/darknews/wp-content/uploads/2021/04/sky-white-wind-old-country-military-714534-pxhere.com_.jpg">
+              </a>
+              <a data-fslightbox="gallery" class="col-lg-4 col-md-4 col-sm-6 col-xs-12" href="images/fishingvillage.jpg">
+                <img width="300" height="180" src="https://demos.afthemes.com/darknews/wp-content/uploads/2021/04/sea-dock-boat-ship-vehicle-equipment-99173-pxhere.com-1.jpg">
+              </a>
+              <a data-fslightbox="gallery" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <iframe width="300" height="180" src="https://www.youtube.com/embed/F-1weFCiYBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </a>
+              <a data-fslightbox="gallery" class="col-lg-4 col-md-4 col-sm-6 col-xs-12" href="images/earthmain.jpg">
+                <img  width="300" height="180" srcset="https://demos.afthemes.com/darknews-pro/wp-content/uploads/2018/07/sky-atmosphere-europe-space-africa-globe-535638-pxhere.com_.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px">
+              </a>
+            </div>
+          </div>
+
+        </div>
+    </div>
+
+    <div class="right-block">
+      <div class="right-block-1">
+        <div class="right-title">
+          <h2> Recent Posts</h2>
+          <ul>
+            <li>
+            <a href="#">7 Successful Battle Strategies to Beat COVID-19</a>
+            </li>
+            <li>
+              <a href="#">Musk’s SpaceX: Starship lands safely… then explodes</a>
+            </li>
+            <li>
+              <a href="#">Why are QAnon believers obsessed with 4 March?</a>
+            </li>
+            <li>
+              <a href="#">Fisherman swap petrol motors for electric engines</a>
+            </li>
+            <li>
+              <a href="#">Searching for the forgotten heroes of World War Two</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="right-block-2">
+        <div class="right-title">
+          <h2> Recent Posts</h2>
+          <div class="no-comments">
+            No comments to show.
+          </div>
+        </div>
+      </div>
+
+      <div class="right-block-3">
+        <div class="right-title">
+          <h2>Archives</h2>
+          <div class="no-comments">
+            <ul>
+              <li>
+                <a href="#">July 2018</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-block-4">
+        <div class="right-title">
+          <h2>Categories</h2>
+          <div class="no-comments">
+            <ul>
+              <li>
+                <a href="#">Business</a>
+              </li>
+              <li>
+                <a href="#">Health</a>
+              </li>
+              <li>
+                <a href="#">Newsbeat</a>
+              </li>
+              <li>
+                <a href="#">Science</a>
+              </li>
+              <li>
+                <a href="#">Sports</a>
+              </li>
+              <li>
+                <a href="#">Stories</a>
+              </li>
+              <li>
+                <a href="#">Tech</a>
+              </li>
+              <li>
+                <a href="#">World</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-block-5">
+        <div class="right-title">
+          <h2>Archives</h2>
+          <div class="no-comments">
+            <ul>
+              <li>
+                <a href="#">July 2018</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-block-6 ">
+        <div class="column-container-content">
+          <div class="column-content-9">
+            <div class="posts-list-row-6">
+              <h2 class="posts-list-title">
+                <span class="featured-posts-text">Recent posts</span>
+              </h2>
+              <ul>
+                <li>
+                  <a href="#">7 Successful Battle Strategies to Beat COVID-19</a>
+                </li>
+                <li>
+                  <a href="#">Musk’s SpaceX: Starship lands safely… then explodes</a>
+                </li>
+                <li>
+                  <a href="#">Why are QAnon believers obsessed with 4 March?</a>
+                </li>
+                <li>
+                  <a href="#">Fisherman swap petrol motors for electric engines</a>
+                </li>
+                <div>
+                  <li class="bottom-bord">
+                    <a href="#">Searching for the forgotten heroes of World War Two</a>
+                  </li>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-block-7 ">
+              <h2 class="posts-list-title">
+                <span class="featured-posts-text">Recent comments</span>
+              </h2>
+      </div>
+
+      <div class="right-block-8 ">
+        <h2 class="posts-list-title">
+          <span class="featured-posts-text">Archives</span>
+        </h2>
+        <ul>
+          <li>
+            <a href="#">July 2018</a>
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="right-block-9 ">
+        <div class="column-container-content">
+          <div class="column-content-9">
+            <div class="posts-list-row-9">
+              <h2 class="posts-list-title">
+                <span class="featured-posts-text">Recent posts</span>
+              </h2>
+              <ul>
+                <li>
+                  <a href="#">Business</a>
+                </li>
+                <li>
+                  <a href="#">Health</a>
+                </li>
+                <li>
+                  <a href="#">Newsbeat</a>
+                </li>
+                <li>
+                  <a href="#">Science</a>
+                </li>
+                <li>
+                  <a href="#">Sports</a>
+                </li>
+                <li>
+                  <a href="#">Stories</a>
+                </li>
+                <li>
+                  <a href="#">Tech</a>
+                </li>
+                <li>
+                  <a href="#">World</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="right-block-10">
+        <div class="column-container-content">
+          <div class="column-content">
+            <div class="posts-list-row-9">
+              <h2 class="posts-list-title">
+                <span class="featured-posts-text">Recent posts</span>
+              </h2>
+              <ul>
+                <li>
+                  <a href="#">Log in</a>
+                </li>
+                <li>
+                  <a href="#">Entries feed</a>
+                </li>
+                <li>
+                  <a href="#">Comments feed</a>
+                </li>
+                <li>
+                  <a href="#">WordPress.org</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!--Have Missed-->
+  <section class="have-missed-section">
+    <div class="container-have-missed">
+      <div class="container">
+        <div class="rows">
+          <div class="featured-posts-row">
+            <h4 class="featured-posts-title">
+              <span class="featured-posts-text">You may have missed</span>
+            </h4>
+          </div>
+          <div class="content-list">
+
+            <div class="content-item-missed col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div class="content-missed">
+                <div class="missed-img">
+                  <a type="button">
+                    <img width="300" height="169" src="https://demos.afthemes.com/darknews-pro/wp-content/uploads/2018/07/covid-19-coronavirus-covid-cell-pandemic-corona-virus-1608796-pxhere.com-1.jpg" sizes="(max-width: 300px) 100vw, 300px">
+                  </a>
+                  <div class="category-missed">
+                    <div class="categories">
+                      <ul class="missed-links">
+                        <li class="category">
+                          <a class="news-category" type="button" href="#">Newbeat</a>
+                        </li>
+                        <li class="category">
+                          <a class="news-category" type="button" href="#">Sports</a>
+                        </li>
+                        <li class="category">
+                          <a class="news-category" type="button" href="#">Tech</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="missed-title">
+                  <div class="missed-read-title">
+                    <h4>
+                      <a href="#">7 Successful Battle Strategies to Beat COVID-19</a>
+                    </h4>
+                  </div>
+                  <span class="author-link">
+                                <i class="date far fa-clock"></i>
+                                July 18, 2018
+                            </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="content-item-missed col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div class="content-missed">
+                <div class="missed-img">
+                  <a type="button">
+                    <img class="attachment-medium size-medium wp-post-image" alt="" loading="lazy" srcset="https://demos.afthemes.com/darknews-pro/wp-content/uploads/2018/07/sky-atmosphere-europe-space-africa-globe-535638-pxhere.com_-768x432.jpg 768w, https://demos.afthemes.com/darknews-pro/wp-content/uploads/2018/07/sky-atmosphere-europe-space-africa-globe-535638-pxhere.com_.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px">
+                  </a>
+                  <div class="category-missed">
+                    <div class="categories">
+                      <ul class="missed-links">
+                        <li class="category">
+                          <a class="news-category" type="button" href="#">Business</a>
+                        </li>
+                        <li class="category">
+                          <a class="news-category" type="button" href="#">Health</a>
+                        </li>
+                        <li class="category">
+                          <a class="news-category" type="button" href="#">Sports</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="missed-title">
+                  <div class="missed-read-title">
+                    <h4>
+                      <a href="#">Musk’s SpaceX: Starship lands safely… then explodes</a>
+                    </h4>
+                  </div>
+                  <span class="author-link">
+                                <i class="date far fa-clock"></i>
+                                July 18, 2018
+                            </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="content-item-missed col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div class="content-missed">
+                <div class="missed-img">
+                  <a type="button">
+                    <img width="300" height="200" src="https://demos.afthemes.com/darknews/wp-content/uploads/2021/04/sky-white-wind-old-country-military-714534-pxhere.com_.jpg">
+                  </a>
+                  <div class="category-missed">
+                    <div class="categories">
+                      <ul class="missed-links">
+                        <li class="category">
+                          <a class="news-category" type="button" href="#">Business</a>
+                        </li>
+                        <li class="category">
+                          <a class="news-category" type="button" href="#">Health</a>
+                        </li>
+                        <li class="category">
+                          <a class="news-category" type="button" href="#">Sports</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="missed-title">
+                  <div class="missed-read-title">
+                    <h4>
+                      <a href="#">Why are QAnon believers obsessed with 4 March?</a>
+                    </h4>
+                  </div>
+                  <span class="author-link">
+                                <i class="date far fa-clock"></i>
+                                July 18, 2018
+                            </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="content-item-missed col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div class="content-missed">
+                <div class="missed-img">
+                  <a type="button">
+                    <img src="https://demos.afthemes.com/darknews/wp-content/uploads/2021/04/sea-dock-boat-ship-vehicle-equipment-99173-pxhere.com-1.jpg">
+                  </a>
+                  <div class="category-missed">
+                    <div class="categories">
+                      <ul class="missed-links">
+                        <li class="category">
+                          <a class="news-category" type="button" href="#">Health</a>
+                        </li>
+                        <li class="category">
+                          <a class="news-category" type="button" href="#">Newbest</a>
+                        </li>
+                        <li class="category">
+                          <a class="news-category" type="button" href="#">Tech</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="missed-title">
+                  <div class="missed-read-title">
+                    <h4>
+                      <a href="#">Fisherman swap petrol motors for electric engines</a>
+                    </h4>
+                  </div>
+                  <span class="author-link">
+                                <i class="date far fa-clock"></i>
+                                July 18, 2018
+                            </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--footer-->
+  <footer>
+    <div class="primary-footer">
+      <div class="container">
+        <div class="footer-row">
+
+          <div class="footer-column col-lg-4 col-md-6 col-sm-6 col-xs-12">
+            <div class="column-container-content">
+              <div class="column-content">
+                <div class="posts-list-row">
+                  <h2 class="posts-list-title">
+                    <span class="featured-posts-text">About af themes</span>
+                  </h2>
+                  <div class="primary-footer-text">
+                    <p>
+                      We mainly focus on quality code and elegant design with incredible support. Our
+                      <a
+                        href="#">WordPress themes and plugins
+                      </a>
+                      empower you to create an elegant, professional and easy to maintain website in no time at all.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-column col-lg-4 col-md-6 col-sm-6 col-xs-12">
+            <div class="column-container-content">
+              <div class="column-content">
+                <div class="posts-list-row">
+                  <h2 class="posts-list-title">
+                    <span class="featured-posts-text">Recent posts</span>
+                  </h2>
+                  <ul>
+                    <li>
+                      <a href="#">7 Successful Battle Strategies to Beat COVID-19</a>
+                    </li>
+                    <li>
+                      <a href="#">Musk’s SpaceX: Starship lands safely… then explodes</a>
+                    </li>
+                    <li>
+                      <a href="#">Why are QAnon believers obsessed with 4 March?</a>
+                    </li>
+                    <li>
+                      <a href="#">Fisherman swap petrol motors for electric engines</a>
+                    </li>
+                    <li>
+                      <a href="#">Searching for the forgotten heroes of World War Two</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-column col-lg-4 col-md-6 col-sm-6 col-xs-12">
+            <div class="posts-list-row">
+              <h2 class="posts-list-title">
+                <span class="featured-posts-text">Tags</span>
+              </h2>
+              <div class="footer-tags">
+                <a href="#" class="tag-footer">
+                  Business
+                </a>
+                <a href="#" class="tag-footer">
+                  Health
+                </a>
+                <a href="#" class="tag-footer">
+                  Newsbeat
+                </a>
+                <a href="#" class="tag-footer">
+                  Science
+                </a>
+                <a href="#" class="tag-footer">
+                  Sport
+                </a>
+                <a href="#" class="tag-footer">
+                  Stories
+                </a>
+                <a href="#" class="tag-footer">
+                  USA
+                </a>
+                <a href="#" class="tag-footer">
+                  World
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="site-info">
+      <div class="container">
+        <div class="site-text-container">
+          <div class="site-text">
+            Copyright © All rights reserved.
+            <span class="sep"> | </span>
+            <a href="https://afthemes.com/products/darknews/" target="_blank">DarkNews</a>
+            by AF themes.
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+<script src="fslightbox.js"></script>
+</body>
+</html>
