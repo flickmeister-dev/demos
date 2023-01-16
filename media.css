@@ -215,6 +215,10 @@
     .content-list {
         width: 100%;
     }
+
+    .left-block-content h1 {
+        font-size: 20px;
+    }
 }
 
 
