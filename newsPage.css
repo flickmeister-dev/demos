@@ -14,14 +14,13 @@
     padding-right: 12px;
 }
 
+
 .right-block {
-    display: flex;
-    flex-direction: column;
     position: sticky;
+    top: 0;
     width: 30%;
-    padding-top: 25px;
     padding-left: 12px;
-    top: 30px;
+    padding-top: 25px;
 }
 
 .left-block-header {
@@ -236,6 +235,14 @@
 
 .no-comments {
     color: white;
+}
+
+.have-missed-section {
+    position: relative;
+}
+
+.container-have-missed {
+    position: relative;
 }
 
 
